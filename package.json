@@ -1,27 +1,20 @@
 {
   "name": "generic-mcp-search-fetch",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Generic MCP server with OpenAI-compliant search and fetch tools",
   "type": "module",
   "main": "dist/server.js",
   "bin": {
-    "generic-mcp-search-fetch": "dist/server.js"
+    "generic-mcp-search-fetch": "dist/cli.js"
   },
+  "files": ["dist"],
   "scripts": {
-    "dev": "tsx src/server.ts",
+    "dev": "tsx src/cli.ts --stdio",
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "node dist/cli.js --stdio",
     "clean": "rm -rf dist"
   },
-  "keywords": [
-    "mcp",
-    "model-context-protocol",
-    "search",
-    "fetch",
-    "openai",
-    "chatgpt",
-    "connectors"
-  ],
+  "keywords": ["mcp","model-context-protocol","search","fetch","openai","chatgpt","connectors"],
   "author": "scottiesan",
   "license": "MIT",
   "dependencies": {
@@ -33,7 +26,5 @@
     "tsx": "^4.19.1",
     "typescript": "^5.5.4"
   },
-  "engines": {
-    "node": ">=18"
-  }
+  "engines": { "node": ">=18" }
 }
