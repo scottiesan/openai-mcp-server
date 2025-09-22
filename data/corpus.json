@@ -1,0 +1,20 @@
+[
+  {
+    "id": "doc_001",
+    "title": "Getting started with the Alpha API",
+    "url": "https://example.com/alpha",
+    "content": "Alpha API quickstart, auth details, rate limits, and usage examples."
+  },
+  {
+    "id": "doc_002",
+    "title": "Trading notes: momentum vs mean reversion",
+    "url": "https://example.com/trading-notes",
+    "content": "Summary of strategies, backtest caveats, and risk controls."
+  },
+  {
+    "id": "doc_003",
+    "title": "Infra runbook",
+    "url": "https://example.com/runbook",
+    "content": "Operational procedures, on-call tips, and incident workflows."
+  }
+]
