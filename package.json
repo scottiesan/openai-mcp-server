@@ -1,6 +1,6 @@
 {
   "name": "generic-mcp-search-fetch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generic MCP server with OpenAI-compliant search and fetch tools",
   "type": "module",
   "main": "dist/server.js",
